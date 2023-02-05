@@ -1,4 +1,5 @@
-let formElement = document.querySelector(".js-form");
+{
+  let formElement = document.querySelector(".js-form");
 let amountElement = document.querySelector(".js-amount");
 let inputCurrencyElement = document.querySelector(".js-inputCurrency");
 let outputCurrencyElement = document.querySelector(".js-outputCurrency");
@@ -41,3 +42,5 @@ formElement.addEventListener("submit", (event) => {
 
 
 });
+
+}
