@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    display: flex;
+    background-color: rgb(210, 224, 248);
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    color: #84878b;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    background-image: url("https://i.postimg.cc/ZK4gsJdr/plane.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: center;
+    
+}
+
+.form {
+    margin: 8px;
+    background-color: rgb(245, 249, 255);
+    padding: 5px;
+    max-width: 330px;
+    border-radius: 20px;
+    background: #E4EDFD;
+    box-shadow: 10px 10px 49px #c2c9d7,
+        -10px -10px 49px #ffffff;
+
+}
+
+.form__legend {
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.form__fieldset {
+    margin: 0 auto;
+    max-width: 330px;
+    border: none;
+}
+
+.form__currency {
+    margin: 10px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: #84878b;
+    border-radius: 5px;
+    background: #EAF3FF;
+    box-shadow: 5px 5px 12px #c7cfd9,
+        -5px -5px 12px #ffffff;
+}
+
+.form__button {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: normal;
+    border-radius: 5px;
+    color: #84878b;
+    border-radius: 5px;
+    background: #EAF3FF;
+    box-shadow: 5px 5px 12px #c7cfd9,
+        -5px -5px 12px #ffffff;
+}
+
+.form__button:hover {
+    color: #eee;
+    border-radius: 5px;
+    background: #7E9BFF;
+    box-shadow: inset 5px 5px 12px #6b84d9,
+        inset -5px -5px 12px #91b2ff;
+}
+
+.form__amount {
+
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #EAF3FF;
+    color: #84878b;
+    padding-left: 15px;
+    box-shadow: inset 6px 6px 12px #cdd5e4,
+        inset -6px -6px 12px #fbffff;
+}
+
+.form__result {
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #eee;
+    border-radius: 10px;
+    background: #7E9BFF;
+    box-shadow: inset 5px 5px 12px #6b84d9,
+        inset -5px -5px 12px #91b2ff;
+}
+
+.form__currencyResult {
+
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    width: 65px;
+}
+
+
+
+
+.form__footer {
+    margin: 0 auto;
+    max-width: 400px;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.5;
+
+}
