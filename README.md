@@ -1,2 +1,2 @@
-#Test1
-[Currency converter] (https://kajakopczynska.github.io/homepage/)
+# **Currency converter**
+[Click here to use currency converter] (https://kajakopczynska.github.io/Currency-converter/)
