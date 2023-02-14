@@ -8,6 +8,9 @@ html {
 
 .body {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
     background-color: rgb(210, 224, 248);
     max-width: 550px;
     margin: 0 auto;
