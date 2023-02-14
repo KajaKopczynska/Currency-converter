@@ -9,6 +9,7 @@
         if (outputCurrency === "PLN") return amount * 1;
         else if (outputCurrency === "EUR") return (amount * pln) / eur;
         else if (outputCurrency === "USD") return (amount * pln) / usd;
+
       case "EUR":
         if (outputCurrency === "EUR") return amount * 1;
         else if (outputCurrency === "USD") return (amount * eur) / usd;
